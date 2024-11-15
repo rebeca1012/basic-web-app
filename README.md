@@ -1,42 +1,42 @@
-## Getting Started
+## Comenzando
 
-First install the app:
+Primero, instala la aplicación:
 
 ```bash
 npm install
 ```
-
-Then, run the development server:
+Luego, ejecuta el servidor de desarrollo:
 
 ```bash
 npm run dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Abre [http://localhost:3000](http://localhost:3000) en tu navegador para ver el resultado.
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+Puedes comenzar a editar la página modificando `pages/index.tsx`. La página se actualiza automáticamente a medida que editas el archivo.
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api?q=shakespeare](http://localhost:3000/api?q=shakespeare). This endpoint can be edited in `pages/api/index.ts`.
+Las [Rutas API](https://nextjs.org/docs/api-routes/introduction) se pueden acceder en [http://localhost:3000/api?q=shakespeare](http://localhost:3000/api?q=shakespeare). Este endpoint se puede editar en `pages/api/index.ts`.
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+El directorio `pages/api` está mapeado a `/api/*`. Los archivos en este directorio se tratan como [rutas API](https://nextjs.org/docs/api-routes/introduction) en lugar de páginas de React.
 
-## Testing
+## Pruebas
 
-The repo uses [Jest](https://jestjs.io/) for testing. Current there's one test file for `QueryProcessor` helper, called `_tests_/QueryProcessor.test.ts`.
+Este repositorio utiliza [Jest](https://jestjs.io/)  para realizar pruebas. Actualmente, hay un archivo de prueba para el helper `QueryProcessor` helper, llamado `_tests_/QueryProcessor.test.ts`.
 
-To run tests, run the following command
+Para ejecutar las pruebas, usa el siguiente comando:
 
 ```bash
 npm run test
 ```
 
-Jest will run in watch mode, which means it will automatically run your test case as you make changes to your code. 
+Jest se ejecutará en modo de observación, lo que significa que ejecutará automáticamente tus casos de prueba a medida que realices cambios en tu código.
 
-## Learn More
 
-To learn more about Next.js, take a look at the following resources:
+## Aprende Más
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Para aprender más sobre Next.js, consulta los siguientes recursos:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+- [Documentación de Next.js](https://nextjs.org/docs) - Aprende sobre las características y API de Next.js.
+- [Aprende Next.js](https://nextjs.org/learn) - Un tutorial interactivo sobre Next.js.
+
+Puedes consultar el [repositorio de GitHub de Next.js](https://github.com/vercel/next.js/) - ¡Tus comentarios y contribuciones a este proyecto de Código Abierto son bienvenidos!
