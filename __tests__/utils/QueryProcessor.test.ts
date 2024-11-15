@@ -18,12 +18,12 @@ describe("QueryProcessor", () => {
           ));
     });
 
-    // TODO: You should update the test below after you add your andrew id
-    test('should return my andrew id', () => {
-        const query = "what's your Andrew ID?";
+    // TODO: Deberías actualizar la prueba a continuación después de añadir tu USB ID
+    test('should return my USB ID', () => {
+        const query = "what's your USB ID?";
         const response: string = QueryProcessor(query);
         expect(response).toBe((
-            "YOUR ANDREW ID SHOULD BE HERE"
-          ));
+		"YOUR USB ID SHOULD BE HERE"
+    	));
     });
 });

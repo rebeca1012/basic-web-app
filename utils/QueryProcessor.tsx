@@ -7,10 +7,10 @@ export default function QueryProcessor(query: string): string {
     );
   }
 
-  if (query.toLowerCase().includes("andrew id")) {
-    //TODO add your Andrew ID below
-    //TODO update the corresponding test case in __tests__
-    return ( "YOUR ANDREW ID SHOULD BE HERE" );
+  if (query.toLowerCase().includes("usb id")) {
+    // TODO añade tu USB ID a continuación
+    // TODO actualiza el caso de prueba correspondiente en __tests__
+    return ( "TU USB ID DEBERÍA ESTAR AQUÍ" );
   }
   return "";
 }
